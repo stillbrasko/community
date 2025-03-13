@@ -31,7 +31,7 @@ def main(config):
     if api_key != None:
         stop_url = "https://api.pugetsound.onebusaway.org/api/where/arrivals-and-departures-for-stop/" + stopid + ".json?key=" + api_key
     else:
-        stop_url = "http://api.pugetsound.onebusaway.org/api/where/arrivals-and-departures-for-stop/1_75403.json?key=TEST"
+        stop_url = "http://api.pugetsound.onebusaway.org/api/where/arrivals-and-departures-for-stop/1_14230.json?key=TEST"
 
     font = "CG-pixel-3x5-mono"
 
